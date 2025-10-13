@@ -25,4 +25,5 @@ def singleEmailsender(to_email:str,subject:str,body:str):
     server.login(SENDER_EMAIL,SENDER_PASSKEY)
     server.sendmail(SENDER_EMAIL,to_email,msg.as_string())
     server.quit()
+
     print(f"Successfully email sent to {to_email}")
