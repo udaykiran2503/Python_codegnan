@@ -9,8 +9,8 @@ import os
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 # IMPORTANT: Replace with your email and a 16-digit 'App Password' from your Google Account
-SENDER_EMAIL ="21jr1a44a7@gmail.com" 
-SENDER_PASSKEY="gqkl aswb xgfl txso"
+SENDER_EMAIL ="Your email" 
+SENDER_PASSKEY="Your passkey"
 
 # create single sender emaail function
 def singleEmailsender(to_email:str,subject:str,body:str):
