@@ -8,7 +8,7 @@ import os
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL ="your email"
-SENDER_PASSKEY="gqkl aswb xgfl txso"
+SENDER_PASSKEY="Your passkey"
 
 # create single sender emaail function
 def singleEmailsender(to_email:str,subject:str,body:str):
@@ -27,3 +27,4 @@ def singleEmailsender(to_email:str,subject:str,body:str):
     server.quit()
 
     print(f"Successfully email sent to {to_email}")
+
